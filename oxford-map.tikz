@@ -1,0 +1,51 @@
+
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=25cm]{graphics/oxford_map.png}};
+%\draw[help lines,xstep=2.5,ystep=3.5] (0,0) grid (25cm,14cm);
+%\foreach \x in {0,2.5,...,25} { \node [anchor=north] at (\x,0) {0.\x}; }
+%\foreach \y in {0,3.5,...,14} { \node [anchor=east] at (0,\y) {0.\y}; }
+
+%% Beer
+ \node[anchor=south west,inner sep=0] (image) at (15.8cm,7.3cm) {\includegraphics[width=.25cm]{graphics/pint-of-beer.png}A};
+ \node[anchor=south west,inner sep=0] (image) at (15.3cm,8cm) {\includegraphics[width=.25cm]{graphics/pint-of-beer.png}B};
+ \node[anchor=south west,inner sep=0] (image) at (14.0cm,7.3cm) {C\includegraphics[width=.25cm]{graphics/pint-of-beer.png}};
+ \node[anchor=south west,inner sep=0] (image) at (13.5cm,2.8cm) {D\includegraphics[width=.25cm]{graphics/pint-of-beer.png}};
+\node[anchor=south west,inner sep=0] (image) at (9.7cm,11cm) {F\includegraphics[width=.25cm]{graphics/pint-of-beer.png}};
+ \node[anchor=south west,inner sep=0] (image) at (10.7cm,11cm) {\includegraphics[width=.25cm]{graphics/pint-of-beer.png}E};
+
+%% Cocktails
+ \node[anchor=south west,inner sep=0] (image) at (6.3cm,12cm) {A\includegraphics[width=.5cm]{graphics/martini.png}};
+ \node[anchor=south west,inner sep=0] (image) at (8.4cm,13.1cm) {B\includegraphics[width=.5cm]{graphics/martini.png}};
+ \node[anchor=south west,inner sep=0] (image) at (13.2cm,3.4cm) {C\includegraphics[width=.5cm]{graphics/martini.png}};
+
+%% Food
+\node[anchor=south west,inner sep=0] (image) at (7.8cm,6.8cm) {A\includegraphics[width=.4cm]{graphics/food.png}};
+\node[anchor=south west,inner sep=0] (image) at (12.7cm,6.2cm) {B\includegraphics[width=.4cm]{graphics/food.png}};
+\node[anchor=south west,inner sep=0] (image) at (16cm,3.9cm) {C\includegraphics[width=.4cm]{graphics/food.png}};
+\node[anchor=south west,inner sep=0] (image) at (4.4cm,5.6cm) {D\includegraphics[width=.4cm]{graphics/food.png}};
+\node[anchor=south west,inner sep=0] (image) at (10.3cm,5.5cm) {E\includegraphics[width=.4cm]{graphics/food.png}};
+
+
+%% Landmarks
+ \node[anchor=south west,inner sep=0,fill=white] (image) at (23cm,10cm) {\includegraphics[width=1.5cm]{MEG_UK_Logo_black_v6-01.png}};
+ \node[anchor=south west,inner sep=0] (image) at (8.6cm,5.9cm) {\includegraphics[width=.75cm]{graphics/bus.png}};
+\node[anchor=south west,inner sep=0] (image) at (18.85cm,4.6cm) {\includegraphics[width=.6cm]{graphics/drink-food-wine-512.png}};
+
+%% Arrows
+\draw[->, very thick] (7cm,12.65cm) edge node[above,anchor=south west,fill=cyan] {to Jericho}  (6cm,13.8cm);
+\draw[->, very thick] (22.5cm,2.3cm) edge node[above,pos=.9,anchor=north east,fill=cyan] {to St Clements, Cowley \& Iffley}  (24cm,.9cm);
+
+\node[anchor=north west, minimum width=25cm] (caption)  at (0,0) {
+\begin{tabular}{l l l l}
+\includegraphics[width=.75cm]{MEG_UK_Logo_black_v6-01.png} - MEG UK 2017 & \includegraphics[width=.4cm]{graphics/food} A - My Sichuan Resturant & \includegraphics[width=.25cm]{graphics/pint-of-beer.png} A - The Turf Tavern & \multicolumn{1}{c}{ Areas for food and drink: }  \\
+\includegraphics[width=.75cm]{graphics/NationalRail.png} - Oxford Train Station&  \includegraphics[width=.4cm]{graphics/food} B - Turl Street Kitchen &\includegraphics[width=.25cm]{graphics/pint-of-beer.png} B - The King's Arms &   {{\bf George Street} near Gloucester Green}\\
+\includegraphics[width=.75cm]{graphics/bus.png} - Gloucester Green Bus Station & \includegraphics[width=.4cm]{graphics/food} C - Quod  & \includegraphics[width=.25cm]{graphics/pint-of-beer.png} C - The White Horse &  \multicolumn{1}{c}{ - Bars and Restaurants around the Theatre} \\
+\includegraphics[width=.5cm]{graphics/drink-food-wine-512.png}  - Conference Dinner, St Edmund Hall & \includegraphics[width=.4cm]{graphics/food} D - Sojo  & \includegraphics[width=.25cm]{graphics/pint-of-beer.png} D - The Bear & {\bf Jericho} north of the city \\
+ & \includegraphics[width=.4cm]{graphics/food} E - Bills & \includegraphics[width=.25cm]{graphics/pint-of-beer.png} E - The Lamb \& Flag & \multicolumn{1}{c}{ - High-end cocktails, wine and dining }\\
+{\bf Events in Oxford:} && \includegraphics[width=.25cm]{graphics/pint-of-beer.png} F - The Eagle \& Child & {\bf Cowley Road} south-east of the river\\
+www.ox.ac.uk/events-list &  \multicolumn{2}{c}{\includegraphics[width=.5cm]{graphics/martini}A - Raoul's Bar  } &  \multicolumn{1}{c}{ - Lively road with graphics/food \& drink until late}\\
+www.dailyinfo.co.uk/events &  \multicolumn{2}{c}{\includegraphics[width=.5cm]{graphics/martini}B - The Duke of Cambridge} & \\
+experienceoxfordshire.org/whats-on/ &\multicolumn{2}{c}{\includegraphics[width=.5cm]{graphics/martini}C - All Bar One}  & \\
+\end{tabular}};
+
+\end{tikzpicture}

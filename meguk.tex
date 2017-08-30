@@ -1,0 +1,339 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[verbose, margin=2.5cm,showframe=false]{geometry}
+%\usepackage[a5paper,textwidth=5in,textheight=7in]{geometry}
+\usepackage{lipsum}  % this package is for creating filler text
+\usepackage{booktabs}
+\usepackage{tabularx,graphicx}
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings}
+\usepackage{xcolor,colortbl}
+
+\usetikzlibrary{calc}
+\usepackage{libertine}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{caption}
+
+% add time and date of keynotes
+% no site titles.
+% Get preliminary keynote and workshop titles (MW keynote, AQ workshop
+
+\definecolor{set1}{RGB}{228, 26,  28}
+\definecolor{set2}{RGB}{55, 126,  184}
+\definecolor{set3}{RGB}{77, 175, 74}
+\definecolor{set4}{RGB}{152, 78, 163}
+\definecolor{set5}{RGB}{225, 127,  0}
+
+\hyphenpenalty=10000
+
+\title{MEG UK 2017}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north ,inner sep=0pt] at ($(current page.center)+(0cm,12cm)$) {
+        \includegraphics[width=16cm]{MEG_UK_Logo_black_v6-01.png}
+                 };
+
+  \node[anchor=north ,inner sep=0pt] at ($(current page.center)+(0cm,-1cm)$) {
+                 \Large 22-24 March 2017
+                 };
+                 
+ \node at ($(current page.center)+(-4.5cm,-5cm)$) { \includegraphics[height=2.5cm]{sponsors/MRCLogo_RGB.png} };
+\node at ($(current page.center)+(+4.5cm,-5cm)$) { \includegraphics[height=2.5cm]{sponsors/CTF.jpg} };
+\node at ($(current page.center)+(-4.5cm,-7.5cm)$) { \includegraphics[height=1.5cm]{sponsors/york_instruments.jpg} };
+\node at ($(current page.center)+(+4.5cm,-7.5cm)$) { \includegraphics[height=2.5cm]{sponsors/Elekta-Corporate-Logo.jpg} };
+
+\node at ($(current page.center)+(-2cm,-10.5cm)$) { \includegraphics[height=2cm]{sponsors/ame} };
+\node at ($(current page.center)+(0cm,-12.2cm)$) { \includegraphics[width=2.8cm]{sponsors/calpendo} };
+\node at ($(current page.center)+(+2cm,-10.5cm)$) { \includegraphics[height=2cm]{sponsors/sr-research_logo} };
+                 
+\end{tikzpicture}
+
+\pagebreak
+
+
+\newgeometry{left=1.5cm,bottom=.5cm,right=.5cm,top=1.5cm}
+\section*{Guide to Oxford}
+\begin{sideways}
+\scalebox{0.95}{
+\input{oxford-map.tikz}
+}
+\end{sideways}
+\thispagestyle{empty}
+\restoregeometry
+
+\section*{Conference Venue}
+
+MEG UK 2017 will be held in St Catherine's College, a short walk or taxi ride from either central Oxford or the train station. The conference will be held in the Bernard Sunley Building and lunch is provided in the College Hall. Bags can be left in the Porter's Lodge. Poster space is available all day. Wifi is freely available through ``eduroam`` or ``TheCloud`` (registration required).\\
+
+{\centering
+\scalebox{.8}{
+\input{stcatz_map.tikz}
+}
+}
+
+\pagebreak
+
+\section*{Keynotes}
+
+
+\vspace{.2cm}
+\begin{tikzpicture}[remember picture,overlay]
+\node[] (christoph) at ($(current page.north) - (0cm,7cm)$) {
+\begin{minipage}{.8\textwidth}
+\centering
+        {\bf Christoph Michel} \\
+        {\small The Functional Brain Mapping Laboratory, Universit\'{e} de Gen\`{e}ve}
+
+        \vspace{.5cm} {\bf EEG Microstates as Basic Building Blocks of Mentation at Rest.}\\22nd March, 5pm.
+        
+\end{minipage}
+};
+
+\node[below of=christoph, anchor=north,node distance = 5cm] (stephanie)  {
+\begin{minipage}{.8\textwidth}
+ \centering
+        {\bf Stephanie Jones} \\
+        {\small Department of Neuroscience, Brown University}
+
+        \vspace{.5cm} {\bf Biophysically Principled Modeling of Human MEG/EEG Signals Reveals Novel Mechanisms \& Meaning of Brain Rhythms.}\\23rd March, 10.45am.
+        
+        \vspace{.5cm} \end{minipage}};
+\hrulefill
+\node[below of=stephanie,anchor=north,node distance=5cm]  {
+\begin{minipage}{.8\textwidth}
+ \centering
+        {\bf Pascal Fries} \\
+       {\small Ernst Str\"{u}ngmann Institute (ESI) for Neuroscience in Cooperation with Max Planck Society}
+
+        \vspace{.5cm} {\bf Rhythms for Cognition: Communication through Coherence}\\24th March, 11.45am.
+        \end{minipage}};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+\pagebreak
+\vspace{1cm}
+
+\begin{tabular}{l p{0.75\linewidth}}
+\multicolumn{2}{l}{\Large Wednesday 22nd March - Workshop} \\
+\toprule
+&  \\
+12.00 & Registration \\
+&  \\
+\multicolumn{2}{l}{\large Oscillations \& Dynamics } \\
+&  \\
+12.30 & {\bf Hyojin Park} - {\small University of Glasgow} \\
+& { Analysis of neuronal oscillatory communication: entrainment, coupling and directionality in cognitive paradigm.} \\
+13.00 & {\bf Bernadette van Wijk} - {\small Charit\`e-University Medicine Berlin} \\
+& { Detection and interpretation of cross-frequency coupling.} \\
+13.30 & {\bf Rik Henson} - {\small Cognition \& Brain Sciences Unit, University of Cambridge} \\.
+& { Frequency-specific and scalp-specific differences in resting-state effective connectivity with age and dementia: evidence from multivariate autoregressive modelling.} \\
+&  \\
+14.00 &  Coffee\\
+&  \\
+\multicolumn{2}{l}{\large Source \& Network Modelling} \\
+&  \\
+14.30 & {\bf Sofie Meyer} - {\small University College London} \\
+& { How to build and use generative models of MEG data for source reconstruction.} \\
+15.00 & {\bf  Arjan Hillebrand} - {\small Vrije Universiteit Amsterdam} \\
+& { Opportunities \& challenges in functional connectivity and network analysis using MEG.} \\
+15.30 & {\bf  George O'Neill} - {\small University of Nottingham} \\
+& { Dynamic functional connectivity: black holes and revelations.} \\
+\\
+16.00 &  Coffee\\
+&  \\
+16.30 & {\bf Krish Singh} - {\small Cardiff University} \\
+& { Oscillatory biomarkers of synaptic function in health and disease.} \\
+&  \\
+\multicolumn{2}{l}{\large Keynote} \\
+&  \\
+17.00 & {\bf Christoph Michel} - {\small Universit\'{e} de Gen\`{e}ve}\\
+& { EEG microstates as basic building blocks of mentation at rest.} \\
+&  \\
+18.00 &  Wrap Up\\
+\bottomrule
+\end{tabular}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south)+(-6cm,3cm)$) {
+\begin{minipage}{12cm}
+All talks are in the Bernard Sunley Lecture Theatre. Tea \& Coffee are served in the foyer.
+\end{minipage}
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+\pagebreak
+
+\section*{Day 1}
+
+
+\begin{figure}[h]
+\centering
+\begin{tabularx}{.95\textwidth}{l p{.8\linewidth}}
+\multicolumn{2}{l}{\Large Thursday 23rd March}\\
+\toprule
+9.45 & Registration \& Coffee \\
+\\
+10.30 & Welcome \\
+10.45 & {\bf Stephanie Jones}: {\small Biophysically Principled Modeling of Human MEG/EEG Signals Reveals Novel Mechanisms \& Meaning of Brain Rhythms.}  \\
+11.45 & {\bf Glasgow} \\
+12.30 & {\bf Birmingham} \\
+\\
+12.45 & Lunch  \\
+\\
+13.30 & {\bf Nottingham} \\
+14.15 & {\bf Short Talks A} \vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf James Bonaiuto} - Comparing methods for making laminar specific inference in MEG.}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Alain Bigirimana} - Emotion-inducing imagery vs motor imagery - A MEG study.}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Jonathan Hadida} - Optimisation of structure from function using large-Scale Biophysical Models.}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Diana Dima} - Wired to watch out: tracking the spatiotemporal dynamics of emotional face perception.}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Lucrezia Liuzzi} - Optimising experimental design for MEG resting state functional connectivity measurement.}\vspace{.25cm}
+\\
+\\
+14.45 & Coffee \& Posters \\
+\\
+15.45 & {\bf York} \\
+16.30 & {\bf Cardiff} \\
+17.15 & Wrap Up \\
+17.30 & Close\\
+\\
+19.30 & Dinner at St Edmund Hall\\
+\bottomrule
+\end{tabularx}
+\end{figure}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south)+(-6cm,4cm)$) {
+\begin{minipage}{12cm}
+All talks are in the Bernard Sunley Lecture Theatre. Lunch is served in the College Hall, Tea \& Coffee are served in the foyer. Spaces for posters are available all day, presenters will be at their posters during the designated session at 14.45.
+\end{minipage}
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+
+
+\pagebreak
+\section*{Day 2}
+
+\begin{figure}[h]
+\centering
+\begin{tabularx}{.95\textwidth}{lp{.8\linewidth}}
+\multicolumn{2}{l}{\Large Friday 24th March}\\
+\toprule
+9.15 & Business Meeting\\
+& {\small $\bullet$ MEG UK 2018}  {\small $\bullet$ MRC Collaborative Grant} {\small $\bullet$ Biomag 2020}\\
+9.45 & {\bf Ulster}\\
+10.30 & {\bf Aston}\\
+\\
+11.15 & Coffee\\
+\\
+11.45 & {\bf Pascal Fries}: {\small Rhythms for Cognition: Communication through Coherence}\\
+\\
+12.45 & Lunch  \\
+\\
+13.30 & {\bf UCL} \\
+14.15 & {\bf Short Talks B}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Christoph Daube} - Band-pass filtering introduces spurious synergy in estimates of transfer entropy}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Anna-Katharina Bauer} - Cross-modal phase entrainment enhances auditory gap detection abilities.}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Angus Stevener} - MEG functional connectivity during sleep?}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Stavros Dimitriadis} - Identification of time-resolved phase-to-amplitude cross-frequency coupling (PAC-CFC) in inter-regional and local neural oscillations}\vspace{.25cm}\\
+& \hspace{.5cm} \parbox{.75\textwidth}{\raggedright\small {\bf Lucy MacGregor} - The neuromagnetic time course of semantic ambiguity resolution in speech comprehension.}\vspace{.25cm}
+\\
+\\
+14.45 & Coffee \& Posters \\
+\\
+15.45 & {\bf Cambridge} \\
+16.30 & {\bf Oxford} \\
+17.15 & Wrap Up \\
+17.30 & Close\\
+\bottomrule
+\end{tabularx}
+\end{figure}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south)+(-6cm,4cm)$) {
+\begin{minipage}{12cm}
+All talks are in the Bernard Sunley Lecture Theatre. Lunch is served in the College Hall, Tea \& Coffee are served in the foyer. Spaces for posters are available all day, presenters will be at their posters during the designated session at 14.45. Please make sure that all posters have been taken down by 18.00.
+\end{minipage}
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+\newgeometry{left=.5cm,bottom=.5cm,right=.5cm,top=.5cm}
+\input{posters/posters_table.tex}
+\input{posters/posters_table2.tex}
+\restoregeometry
+
+\pagebreak
+
+\section*{Notes}
+
+\begin{tikzpicture}[remember picture,overlay]
+ %   \foreach \y in {0.71,1.41,...,25.56}
+  %   \draw[-,very thin] (0,\y) -- (7in,\y);
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+\pagebreak
+
+\section*{Notes}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+
+\pagebreak
+
+\section*{Many Thanks To Our Sponsors:}
+
+\begin{tikzpicture}[remember picture,overlay]
+
+\node at ($(current page.center)+(0cm,7.5cm)$) { \includegraphics[height=3cm]{sponsors/MRCLogo_RGB.png} };
+\node at ($(current page.center)+(0cm,4cm)$) { \includegraphics[height=3cm]{sponsors/CTF.jpg} };
+\node at ($(current page.center)+(0cm,1cm)$) { \includegraphics[height=2cm]{sponsors/york_instruments.jpg} };
+\node at ($(current page.center)+(0cm,-2cm)$) { \includegraphics[height=3cm]{sponsors/Elekta-Corporate-Logo.jpg} };
+
+\node at ($(current page.center)+(-5cm,-8cm)$) { \includegraphics[height=3cm]{sponsors/ame} };
+\node at ($(current page.center)+(0cm,-8cm)$) { \includegraphics[width=5cm]{sponsors/calpendo} };
+\node at ($(current page.center)+(+5cm,-8cm)$) { \includegraphics[height=3cm]{sponsors/sr-research_logo} };
+
+
+  \node[anchor=south west,inner sep=0pt] at ($(current page.south west)+(1cm,1cm)$ ) {
+        \includegraphics[width=8cm]{MEG_UK_Footer_black_v1.pdf}
+                 };
+\end{tikzpicture}
+\pagestyle{empty}
+\pagebreak
+
+
+\end{document}

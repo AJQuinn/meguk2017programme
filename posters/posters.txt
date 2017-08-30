@@ -1,0 +1,77 @@
+Mr.|Yinan|Cao|University of Oxford|Cognitive|Temporal dynamics of Bayesian causal inference in multisensory spatial ventriloquism
+|Svenja|Espenhahn|University College London|Cognitive|The relationship between beta oscillations and variability in motor learning
+|Naomi|du Bois|National University of Ireland, Galway (NUIG)/Ulster University |Cognitive|Investigating differences in the dynamic-systems structure of auditory cognition as a function of musical training.
+Prof.|Aapo|Hyvarinen|University College London|Methods|Orthogonal Connectivity Factorization: Interpretable Decomposition of Variability in Connectivity Matrices
+miss|Kelly|Murphy|Aston University|Cognitive|Semantic and phonological trade-offs in typical and atypical English reading
+miss|Sofie|Meyer|University College London|Methods|Real-time non-invasive imaging of the human hippocampus
+Dr|Eva Zita|Patai|University College London|Cognitive|Electrophysiological Indices of Reinforcement Learning Mechanisms for Spatial Navigation
+Dr.|Yoshihito|Shigihara|University College London|Clinical|Spatio-temporal pattern of visual motion processing in Autism spectrum disorders
+Dr|Ryszard|Auksztulewicz|University of Oxford|Cognitive|Sensory predictions of time and space are modulated by task relevance: evidence of neural and behavioural effects from model-based MEG
+Mr|Roeland|Heerema|University College London|Methods|Detecting movement-related activity in the cerebellum using head casts
+Dr|Andrew|Thwaites|University of Cambridge|Methods|Kymata Atlas Dataset 3.01: publicly available EMEG data
+Dr.|Hyojin|Park|University of Glasgow|Cognitive|Neural decomposition of synergistic and redundant information in interaction between audiovisual speech rhythms and brain oscillations
+Dr.|Bernadette|van Wijk|University College London|Methods|Dynamic causal modelling of cortical - basal ganglia interactions
+|Clement|Moutard|UPMC Paris 6 (Paris, France)|Cognitive|Dynamics and properties of mental models of spinning 3D objects: an M/EEG study.
+Mr|Leonardo|Duque Muñoz|Universidad de Antioquia|Methods|Non-Linear covariance estimation for reconstructing neural activity
+Dr|Andrew|Quinn|University of Oxford|Methods|Task Dynamics in Whole Brain Connectivity with Fast Transient HMM States
+Dr|Jiaxiang|Zhang|Cardiff University|Cognitive|Sustained processing of sensory information during auditory perceptual decision
+Mr|Gerard|Gooding-Williams|Aston University|Clinical|MEG and TMS investigations of Obsessive Compulsive Disorder (OCD) checking behaviour during a working memory and pictorial Stroop task.
+Dr|Holly|Rossiter|Cardiff University|Clinical|Effects of AMPA antagonist perampanel on movement-related oscillations
+Miss|Eleanor|Barratt|University of Nottingham|Cognitive|Somatomotor Mapping in MEG
+Miss|Lucrezia|Liuzzi|University of Nottingham|Methods|Optimising experimental design for MEG resting state functional connectivity measurement
+PhD|Saskia|Helbling|MPI for Human Cognitive and Brain Sciences, Leipzig|Methods|Myelin-informed generative models for M/EEG source reconstruction
+Dr.|James|Bonaiuto|University College London|Methods|Comparing methods for making laminar specific inference in MEG
+Mrs|Ainara|Jauregi|Aston University|Cognitive|Neural correlates of response inhibition as reflected by go/nogo and stop-signal tasks: an MEG study.
+Dr|Olaf|Hauk|MRC Cognition and Brain Sciences Unit|Methods|A Survey On Methods Skills In Cognitive Neuroscience
+|Diana|Dima|Cardiff University|Cognitive|Wired to watch out: tracking the spatiotemporal dynamics of emotional face perception
+Ms|Rachael|Stickland|Cardiff University|Clinical|The coupling between visually-induced gamma oscillations and BOLD and CBF responses in Multiple Sclerosis: A MEG-fMRI Study
+Dr|Hubert|Cecotti|Ulster University|Methods|Single-trial detection of event-related fields in MEG from the presentation of happy faces: Results of the Biomag 2016 data challenge
+Dr|Loes|Koelewijn|Cardiff University|Methods|A comparison of MEG-MRI co-registration using manual fiducial placement and automated digitised head shape matching
+Dr|Lorenzo|Magazzini|Cardiff University|Cognitive|Modulation of visual gamma oscillations by spatial attention
+Dr|Gemma|Williams|Cardiff University|Clinical|Resting state network connectivity in haemodynamic and oscillatory networks in First-Episode and Chronic stages of Schizophrenia
+PhD|Francesca|Fardo|University College London|Cognitive|Expectation violation and attention to pain jointly modulate neural gain in somatosensory cortex
+Prof.|Krish|Singh|Cardiff University|Cognitive|Project Skyfall: Oscillatory-vascular coupling probed using MEG and fMRI during movie watching
+Ms|Marina|Charquero|University of Oxford|Clinical|Revisiting the functional neuroanatomy of post-traumatic stress disorder: insights from meta-analysis and whole-brain connectomics
+Ms|Lauren|Atkinson|University of Oxford|Clinical|Exploring resting state oscillatory brain activity in mood instability
+Mrs|Narjes|Soltani Dehaghani|PhD Student at Shahid Beheshti university, Iran|Cognitive|MEG Markers of Face Recognition
+|Eleanor|Callaghan|Aston University|Cognitive|Switching between Temporal and Spatial Attention in Older Adults: An Investigation into Age-related Changes in Underlying Neural Mechanisms
+Dr.|Diego|Vidaurre|University of Oxford|Methods|Fast transient dynamic brain networks of oscillatory phase locking 
+Mr|Dheeraj|Rathee|Ulster University|Cognitive|Resting-State Functional Networks Predict Performance of Mental Imagery-based Brain-Computer Interface (BCI)
+Dr|Alessandro|Tomassini|Medical Research Council|Cognitive|From perception to action in an uncertain world: decisions all the way
+Ms|Bethany|Routley|Cardiff University|Methods|Comparing MEG and fMRI resting-state functional connectivity in the UK MEG Partnership cohort.
+Dr|Maria|Chait|University College London|Cognitive|Large-scale sustained MEG responses as a marker for auditory sequence predictability?
+Dr.|Marc|Recasens|University of Glasgow|Cognitive|Auditory Predictive Processing in Hippocampal-Prefrontal Circuits: an MEG study
+|Anna-Katharina|Bauer|University of Oldenburg|Cognitive|Cross-modal phase entrainment enhances auditory gap detection abilities
+Mr|Robert|Seymour|Aston University|Clinical|Connectivity Makes the World Go Round? A Perspective Taking MEG Study of ASD and Neurotypical Populations 
+Mr.|Angus|Stevner|University of Oxford|Cognitive|MEG functional connectivity during sleep?
+Dr|Stavros|Dimitriadis|Cardiff University|Methods|Identification of Time-Resolved Phase-to-Amplitude Cross-Frequency Coupling (PAC-CFC) in Inter-Regional and Local Neural Oscillations
+Miss|Rezvan|Farahibozorg|University of Cambridge|Cognitive|Semantic network in the brain: MEG/EEG analyses of semantic hubs and spokes
+Dr.|Robert|Becker|University of Oxford|Cognitive|Using multivariate autoregressive Hidden Markov Modeling of resting state MEG to predict cross-subject variability of spectral dynamics during hand movements
+Dr|Romesh|Abeysuriya|University of Oxford|Methods|Inhibitory synaptic plasticity and transient dynamics in a large-scale biophysical network
+Dr|Freek|van Ede|University of Oxford|Cognitive|Anticipation increases target identity information and delays distractor interference in early visual brain responses
+Dr|Lucy|MacGregor|MRC Cognition and Brain Sciences Unit|Cognitive|The neuromagnetic time course of semantic ambiguity resolution in speech comprehension
+Mr|Jonathan|Hadida|University of Oxford|Methods|Optimisation of Structure from Function using Large-Scale Biophysical Models
+Ms|Victoria|Schroeder|Aston University|Cognitive|The neural correlates of automatic imitation
+|Diandra|Brkic|Aston University|Clinical|Resting state functional connectivity and network topology in Dyslexia genotypes
+Ms|Sheila|Kerry|University College London|Clinical|Changes in the reading network of patients with central alexia in response to therapy: A DCM analysis.
+Dr|Sam|Harrison|University of Oxford|Methods|Inference of subject-specific parcellations from MEG data
+Dr. rer. nat.|Tim|Kietzmann|MRC CBU (Cambridge)|Methods|A cross-validation approach to estimate the relative signal- and noise-content of ICA components.
+|Alexander|Luettich|University of Oxford|Cognitive|Neural mechanisms of spatial and temporal orienting in aging
+|Christoph|Daube|University of Glasgow|Methods|Band-pass filtering introduces spurious synergy in estimates of Transfer Entropy
+Miss|Lingling|Hua|University of Glasgow|Clinical|The subnormal suppression of N1 component in action-related sounds in patients with low-risk psychosis when compared to ultra-high risk psychosis: an evidence from MEG study
+Dr|Hongfang|Wang|Aston University|Cognitive|An brain connectivity study of the obsessively compulsive checking population using MEG
+Dr|Simon|Little|University College London|Methods|Travelling waves in the motor system
+Dr.|Tom|Marshall|University of Oxford|Cognitive|Competitive and stable dynamics in fronto-parietal cortex during perceptual decision making
+Dr.|Bela|Weiss|MRC Cognition and Brain Sciences Unit, Cambridge; Brain Imaging Centre, Research Centre for Natural Sciences, Hungarian Academy of Sciences, Budapest|Methods|Combining MEG with EEG and eye tracking for natural reading research
+Mr|Pramod|Gaur|Ulster University|Methods|Decoding of multi-direction wrist movements using multivariate empirical mode decomposition based filtering
+Ms|Geetika|Kaushik|Visting Researcher at Ulster University|Methods|An MEG based multi-direction wrist movements connectivity analysis using empirical mode decomposition
+Dr|Lauren|Gascoyne|University of Nottingham|Clinical|The effect of Galantamine on neural oscillations in a healthy population
+|Alain|Bigirimana|Ulster University|Cognitive|Emotion-Inducing Imagery vs Motor Imagery - A MEG Study
+Ms|Simone|Heideman|University of Oxford|Cognitive|Anticipatory neural dynamics of joint spatial-temporal orienting of attention in younger and older adults
+Dr|Sam|Johnson|York Instruments|Methods|Pulse Tube Refrigerators in MEG: Cryogen free Cryogenics
+Prof|Andreas|Ioannides|AAI Scientific Cultural Services Ltd, Cyprus|Methods|The role of MEG within a multimodal personalized clinical approach 
+Miss|Elena|Boto|University of Nottingham|Methods|New generation of MEG: Multi-channel OPM measurements
+Dr|Darren|Price|MRC Cognition and Brain Sciences Unit|Clinical|Age-Related Delay in Visual and Auditory Evoked Responses is Mediated by White- and Gray-matter Differences
+|Marlies|Vissers|University of Birmingham |Cognitive|Spatial, temporal and functional characteristics of attention during visual short-term memory
+Mr|Niall|Holmes|University of Nottingham|Methods|Nulling coils for free moving OPM-MEG
+
